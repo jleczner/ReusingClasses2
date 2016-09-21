@@ -17,28 +17,28 @@ public class Human {
         this.occupation = occupation;
         this.address = address;
     }
-//
-//    public String getName() {
-//        return name;
-//    }
-//
-//    public int getAge() {
-//        return age;
-//    }
-//
-//    public String getGender() {
-//        return gender;
-//    }
-//
-//    public String getOccupation() {
-//        return occupation;
-//    }
-//
-//    public String getAddress() {
-//        return address;
-//    }
 
-    public void printData() {
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public String getOccupation() {
+        return occupation;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void print() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Gender: " + gender);
